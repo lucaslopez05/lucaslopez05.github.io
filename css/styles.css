@@ -1,0 +1,107 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.in-flex{
+	flex: 1;
+	min-width: 250px;
+}
+
+body{
+	background: url("../img/fondo.png");
+	background-attachment: fixed;
+}
+.clearflix{
+	float: none;
+	clear: both;
+}
+#global{
+	width: 65%;
+	margin: 0px auto;
+	margin-top: 30px;
+	padding: 25px;
+	background: white;
+	box-shadow: 0px 0px 2px #ccc;
+}
+#logo{
+	display: flex;
+	font-family: Verdana, Arial;
+	font-size: 28px;
+	line-height: 75px;
+	letter-spacing: 4px;
+	background: #0f7daf;
+	color: white;
+	text-align: center;
+	width: 870px;
+	height: 80px;
+	margin-bottom: 20px;
+	float: left;
+}
+.logo img{
+	height: 100px;
+}
+#menu{
+	font-family: Helvetica, Arial;
+	background: #333;
+	width: 100%;
+	margin-bottom: 20px;
+}
+#menu ul{
+	line-height: 46px;
+	list-style: none;
+}
+#menu ul li{
+	height: 46px;
+	display: inline-block;
+	transition: all 300ms;
+}
+
+#menu ul li:hover{
+	background: #355844;
+}
+
+#menu a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding-left: 100px;
+	padding-right: 75.6px;
+}
+#posts{
+	width: 60%;
+	float: left;
+	font-family: Helvetica, Arial;
+}
+.post{
+	padding: 7px;
+}
+.post h2{
+	font-size: 30px;
+	color: #333;
+}
+.post .date{
+	display: block;
+	color: gray;
+	margin-top: 5px;
+} 
+
+.post p{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	line-height: 22px;
+	text-align: justify;
+}
+
+footer{
+	font-family: Helvetica,Arial;
+	color: white;
+	height: 47px;
+	background: rgba(51, 51, 51, 0.70);
+	margin: 0px auto;
+	width: 65%;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 50px;
+	line-height: 47px;
+}
